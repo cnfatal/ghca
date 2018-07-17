@@ -4,7 +4,7 @@
 
  `China Telecom 189 fei young` encrypted account caculator
 
- Source Code Method From:[007xiaoxingxing/GhcaDialer](https://github.com/007xiaoxingxing/GhcaDialer )
+ Source Code From:[007xiaoxingxing/GhcaDialer](https://github.com/007xiaoxingxing/GhcaDialer )(deleted)
 
 ## Usage
 
