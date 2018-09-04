@@ -1,5 +1,5 @@
-FROM scratch
-COPY ghca /
+FROM golang
+RUN go get github.com/fatalc/ghca
 EXPOSE 8080
-ENTRYPOINT ["/ghca"]
+ENTRYPOINT ["/go/bin/ghca"]
 CMD ["--server"]
