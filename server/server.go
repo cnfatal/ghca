@@ -2,6 +2,7 @@ package server
 
 import (
 	"github.com/fatalc/ghca/encrypt"
+	"log"
 	"net/http"
 )
 
@@ -13,6 +14,7 @@ type GhcaHandler struct {
 }
 
 func (*GhcaHandler) ServeHTTP(writer http.ResponseWriter, request *http.Request) {
+	log.Print(request.URL)
 	writer.Header().Set("Content-Type", "application/json")
 	username := request.URL.Query().Get("username")
 	password := request.URL.Query().Get("password")
